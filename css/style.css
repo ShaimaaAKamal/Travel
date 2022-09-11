@@ -31,3 +31,17 @@
 header a:hover i{
     color:#537922;
 }
+
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+
+
+.navbar-nav .nav-link.active{
+    color:var(--siteColor) !important;
+}
+@media screen and (min-width:992px){
+    .navPosition{
+        transform: translateY(-50%);
+    }
+}
