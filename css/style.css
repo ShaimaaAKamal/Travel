@@ -1,0 +1,33 @@
+:root{
+    --siteColor:#78B731;
+    --siteGray:#6C757D;
+    --siteDark:#212121;
+    --borderColor:#636464
+}
+
+.siteText{
+    color:var(--siteColor);
+}
+.siteGray{
+    color:var(--siteGray);
+}
+
+.siteDark{
+    color:var(--siteDark);
+}
+
+.bg-site{
+    background-color: var(--siteColor);
+}
+
+.borderGray{
+    border-color: var(--borderColor) !important;
+}
+
+.headerGray{
+    color:var(--borderColor) ;
+}
+
+header a:hover i{
+    color:#537922;
+}
