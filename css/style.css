@@ -32,6 +32,10 @@
     background-color: #537922;
 }
 
+.header{
+    z-index: 2;
+}
+
 header a:hover i{
     color:#537922;
 }
