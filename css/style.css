@@ -208,9 +208,32 @@ transform: translateY(0);
     background: var(--siteColor);
   }
   
-  .owl-carousel .owl-item.center .testInfo {
+  .owl-carousel .owl-item.center .testInfo,.blogCard:hover {
     box-shadow: 0 0 30px #CCCCCC;
   } 
+
+   .heaHover:hover{
+    color:#537922;
+   }
+
+   .blogInfo{
+    top:15%;
+    left:-15px;
+   }
+
+   .blogInfo::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: -15px;
+    left: 0;
+    border: 8px solid;
+    border-color: transparent #5f8f25 #5f8f25 transparent;
+    z-index: -1;
+   }
+
+  
 @media screen and (min-width:768px){
     .Dates{
         transform: translateY(-50%);
