@@ -62,6 +62,11 @@ header a:hover i{
     color:var(--siteColor) !important;
 }
 
+.dropdown-item.active{
+    background-color: var(--siteColor) !important;
+    color:#fff !important;
+}
+
 
 .homeCaption1{
     background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url(../img/carousel-1.jpg);
@@ -249,6 +254,7 @@ transform: translateY(0);
     background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url(../img/carousel-2.jpg);
    background-size: cover;
    height:60vh;
+   padding-top:3rem;
   }
 
   #About a:hover, #Services a:hover{
