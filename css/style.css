@@ -137,6 +137,50 @@ h1{
   .fa-ul {
     margin-left: var(--fa-li-margin,1.1rem);
 }
+
+
+
+.teamIcon{
+    transition: all .5s;
+    transform: translateY(500%);
+
+}
+.icon1{
+    transition-delay: .3s;
+}
+.icon2{
+    transition-delay: .4s;
+}
+.icon3{
+    transition-delay: .5s;
+}
+.icon4{
+    transition-delay: .6s;
+}
+
+.teamCard{
+    opacity: 0;
+    transition:all .5s;
+}
+
+.teamIcon:hover{
+    background-color: var(--siteColor);
+    color:#fff !important;
+    cursor: pointer;
+}
+.teamParent img{
+    transition: all .5s;
+}
+.teamParent:hover .teamCard{
+    opacity: 1;
+}
+
+.teamParent:hover img{
+ transform: scale(1.1);
+}
+.teamParent:hover .teamIcon{
+transform: translateY(0);
+}
 @media screen and (min-width:768px){
     .Dates{
         transform: translateY(-50%);
