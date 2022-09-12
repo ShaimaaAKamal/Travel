@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="css/all.min.css">
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+       <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+       <link rel="stylesheet" href="owlcarousel/assets/owl.theme.green.min.css">
+     <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+    <section class="header position-absolute top-0 w-100">
+        <header class="d-none d-lg-block bg-light pb-2">
+            <div class="container">
+                <div class="d-flex justify-content-between pt-3 pb-5  ">
+                    <div class="d-flex">
+                        <p class="pe-2 headerGray border-end border-2 borderGray mb-0"><i class="fa fa-envelope me-2" aria-hidden="true"></i> info@example.com</p>
+                        <p class="ps-2  headerGray mb-0"><i class="fa fa-phone me-2" aria-hidden="true"></i> +012 345 6789</p>
+                    </div>
+                    <div>
+                        <a href="#" class="text-decoration-none px-3 ">
+                            <i class="fa-brands fa-facebook-f siteText"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none  px-3">
+                            <i class="fa-brands fa-twitter siteText"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none  px-3 ">
+                            <i class="fa-brands fa-linkedin-in siteText "></i>
+                        </a>
+                        <a href="#" class="text-decoration-none  px-3">
+                            <i class="fa-brands fa-instagram siteText"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none  px-3">
+                            <i class="fa-brands fa-youtube siteText"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-lg  bg-white shadow  py-3 px-2  px-lg-5 position-relative navPosition">
+              <a class="navbar-brand h1 fw-bold" href="index.html">TRAVEL<span class="siteText">ER</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link  siteDark" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  siteDark" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  siteDark" href="service.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active siteDark" href="tour.html">Tour Packages</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle siteDark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                      <li><a class="dropdown-item" href="#">Blog Detail</a></li>
+                      <li><a class="dropdown-item" href="#">Destination</a></li>
+                      <li><a class="dropdown-item" href="#">Travel Guides</a></li>
+                      <li><a class="dropdown-item" href="#">Testmonial</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link siteDark" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="Services" class="d-flex justify-content-center align-items-center">
+     <div class="text-center">
+        <h1 class="text-white">Packages</h1>
+        <p class="text-white">
+            <a href="index.html" class="text-reset text-decoration-none me-3">Home</a>
+            <i class="fa-solid fa-angles-right me-3"></i>
+            <span>Packages</span>
+        </p>
+     </div>
+    </section>
+
+    <section class="Dates position-relative ">
+        <div class="container">
+         <div class="row bg-white shadow p-4 gy-3 mt-5 mt-md-0">
+                <div class="col-12 col-md">
+                     <div>
+                         <select class="form-select" aria-label=".form-select-lg example">
+                             <option selected>Destination</option>
+                             <option value="1">Destination 1</option>
+                             <option value="2">Destination  2</option>
+                             <option value="3">Destination 3</option>
+                           </select>
+                     </div>
+                </div>
+                <div class="col-12 col-md">
+                     <div>
+                         <input placeholder="Depature Date" class="form-control " type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="depature" />
+                     </div>
+                </div>
+             <div class="col-12 col-md">
+                 <div>
+                     <input placeholder="Return Date" class="form-control " type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="return" />
+                 </div>
+             </div>
+             <div class="col-12 col-md">
+                 <div>
+                     <select class="form-select mb-3" aria-label=".form-select-lg example">
+                         <option selected>Duration</option>
+                         <option value="1">Duration 1</option>
+                         <option value="2">Duration  2</option>
+                         <option value="3">Duration 3</option>
+                       </select>
+                 </div>
+             </div>
+             <div class="col-12 col-md">
+                 <div>
+                     <button type="submit" class="w-100 btn bg-site text-white">Sign in</button>
+                 </div>
+             </div>
+         </div>
+        </div>
+     </section>
+
+     <section class="packages py-5">
+        <div class="container ">
+          <h6 class="siteText text-center">PACKAGES</h6>
+          <h2 class="fw-bold text-center">Pefect Tour Packages</h2>
+          <div class="row mt-4 g-5">
+                 <div class="col-lg-4 col-md-6 px-3">
+                       <div class="bg-white packParent ">
+                          <div><img src="img/package-1.jpg" alt="package-1" class="w-100"></div>
+                          <div class="p-4">
+                              <div class="d-flex justify-content-between align-items-center">
+                                     <p class="siteGray small"><i class="fa-solid fa-location-dot siteText me-2"></i> Thailand</p>
+                                     <p class="siteGray small"><i class="fa-solid fa-calendar-days siteText me-2"></i> 3 Days</p>
+                                     <p class="siteGray small"><i class="fa-solid fa-user siteText me-2"></i> 2 Person</p>
+                              </div>
+                              <h4 class="packageTitle pb-4 "><a href="#" class="text-decoration-none text-reset ">Discover amazing places of the world with us</a></h4>
+                              <div class="pt-3 d-flex justify-content-between align-items-center">
+                                  <div class="d-flex align-items-center">
+                                    <i class="fa fa-star siteText fs-6 me-2" aria-hidden="true"></i> <span class="fw-bold fs-6 me-1">4.5</span> <span class="small">(250)</span>
+                                  </div>
+                                  <h4>$350</h4>
+                              </div>
+                          </div>
+                       </div>
+                 </div>
+                 <div class="col-lg-4 col-md-6 px-3">
+                  <div class="bg-white packParent">
+                     <div><img src="img/package-2.jpg" alt="package-2" class="w-100"></div>
+                     <div class="p-4">
+                         <div class="d-flex justify-content-between align-items-center">
+                                <p class="siteGray small"><i class="fa-solid fa-location-dot siteText me-2"></i> Thailand</p>
+                                <p class="siteGray small"><i class="fa-solid fa-calendar-days siteText me-2"></i> 3 Days</p>
+                                <p class="siteGray small"><i class="fa-solid fa-user siteText me-2"></i> 2 Person</p>
+                         </div>
+                         <h4 class="packageTitle pb-4 "><a href="#" class="text-decoration-none text-reset ">Discover amazing places of the world with us</a></h4>
+                         <div class="pt-3 d-flex justify-content-between align-items-center">
+                             <div class="d-flex align-items-center">
+                               <i class="fa fa-star siteText fs-6 me-2" aria-hidden="true"></i> <span class="fw-bold fs-6 me-1">4.5</span> <span class="small">(250)</span>
+                             </div>
+                             <h4>$350</h4>
+                         </div>
+                     </div>
+                  </div>
+                 </div>
+                 <div class="col-lg-4 col-md-6 px-3">
+                  <div class="bg-white packParent ">
+                     <div><img src="img/package-3.jpg" alt="package-3" class="w-100"></div>
+                     <div class="p-4">
+                         <div class="d-flex justify-content-between align-items-center">
+                                <p class="siteGray small"><i class="fa-solid fa-location-dot siteText me-2"></i> Thailand</p>
+                                <p class="siteGray small"><i class="fa-solid fa-calendar-days siteText me-2"></i> 3 Days</p>
+                                <p class="siteGray small"><i class="fa-solid fa-user siteText me-2"></i> 2 Person</p>
+                         </div>
+                         <h4 class="packageTitle pb-4 "><a href="#" class="text-decoration-none text-reset ">Discover amazing places of the world with us</a></h4>
+                         <div class="pt-3 d-flex justify-content-between align-items-center">
+                             <div class="d-flex align-items-center">
+                               <i class="fa fa-star siteText fs-6 me-2" aria-hidden="true"></i> <span class="fw-bold fs-6 me-1">4.5</span> <span class="small">(250)</span>
+                             </div>
+                             <h4>$350</h4>
+                         </div>
+                     </div>
+                  </div>
+                 </div>
+                 <div class="col-lg-4 col-md-6 px-3">
+                  <div class="bg-white packParent">
+                     <div><img src="img/package-4.jpg" alt="package-4" class="w-100"></div>
+                     <div class="p-4">
+                         <div class="d-flex justify-content-between align-items-center">
+                                <p class="siteGray small"><i class="fa-solid fa-location-dot siteText me-2"></i> Thailand</p>
+                                <p class="siteGray small"><i class="fa-solid fa-calendar-days siteText me-2"></i> 3 Days</p>
+                                <p class="siteGray small"><i class="fa-solid fa-user siteText me-2"></i> 2 Person</p>
+                         </div>
+                         <h4 class="packageTitle pb-4 "><a href="#" class="text-decoration-none text-reset ">Discover amazing places of the world with us</a></h4>
+                         <div class="pt-3 d-flex justify-content-between align-items-center">
+                             <div class="d-flex align-items-center">
+                               <i class="fa fa-star siteText fs-6 me-2" aria-hidden="true"></i> <span class="fw-bold fs-6 me-1">4.5</span> <span class="small">(250)</span>
+                             </div>
+                             <h4>$350</h4>
+                         </div>
+                     </div>
+                  </div>
+                 </div>
+                 <div class="col-lg-4 col-md-6 px-3">
+                  <div class="bg-white packParent ">
+                     <div><img src="img/package-5.jpg" alt="package-5" class="w-100"></div>
+                     <div class="p-4">
+                         <div class="d-flex justify-content-between align-items-center">
+                                <p class="siteGray small"><i class="fa-solid fa-location-dot siteText me-2"></i> Thailand</p>
+                                <p class="siteGray small"><i class="fa-solid fa-calendar-days siteText me-2"></i> 3 Days</p>
+                                <p class="siteGray small"><i class="fa-solid fa-user siteText me-2"></i> 2 Person</p>
+                         </div>
+                         <h4 class="packageTitle pb-4 "><a href="#" class="text-decoration-none text-reset ">Discover amazing places of the world with us</a></h4>
+                         <div class="pt-3 d-flex justify-content-between align-items-center">
+                             <div class="d-flex align-items-center">
+                               <i class="fa fa-star siteText fs-6 me-2" aria-hidden="true"></i> <span class="fw-bold fs-6 me-1">4.5</span> <span class="small">(250)</span>
+                             </div>
+                             <h4>$350</h4>
+                         </div>
+                     </div>
+                  </div>
+                 </div>
+                 <div class="col-lg-4 col-md-6 px-3">
+                  <div class="bg-white packParent">
+                     <div><img src="img/package-6.jpg" alt="package-6" class="w-100"></div>
+                     <div class="p-4">
+                         <div class="d-flex justify-content-between align-items-center">
+                                <p class="siteGray small"><i class="fa-solid fa-location-dot siteText me-2"></i> Thailand</p>
+                                <p class="siteGray small"><i class="fa-solid fa-calendar-days siteText me-2"></i> 3 Days</p>
+                                <p class="siteGray small"><i class="fa-solid fa-user siteText me-2"></i> 2 Person</p>
+                         </div>
+                         <h4 class="packageTitle pb-4 "><a href="#" class="text-decoration-none text-reset ">Discover amazing places of the world with us</a></h4>
+                         <div class="pt-3 d-flex justify-content-between align-items-center">
+                             <div class="d-flex align-items-center">
+                               <i class="fa fa-star siteText fs-6 me-2" aria-hidden="true"></i> <span class="fw-bold fs-6 me-1">4.5</span> <span class="small">(250)</span>
+                             </div>
+                             <h4>$350</h4>
+                         </div>
+                     </div>
+                  </div>
+                 </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="Destination">
+        <div class="container text-center">
+          <h6 class="siteText">Destination</h6>
+          <h2 class="fw-bold">Explore Top Destination</h2>
+          <div class="row my-4 g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="position-relative desParent overflow-hidden">
+                   <div>
+                    <img src="img/destination-1.jpg" alt="destination 1" class="w-100">
+                   </div>
+                   <div class="text-white text-center bg-dark border border-1 border-white bg-dark bg-opacity-50 position-absolute  desitCard ">
+                    <div>
+                      <h5>United states</h5>
+                      <p class="h6">100 Cities</p>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="position-relative desParent overflow-hidden">
+                 <div>
+                  <img src="img/destination-2.jpg" alt="destination 2" class="w-100">
+                 </div>
+                 <div class="text-white text-center bg-dark border border-1 border-white bg-dark bg-opacity-50 position-absolute  desitCard ">
+                   <div>
+                    <h5>United Kingdom</h5>
+                    <p class="h6">100 Cities</p>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+            <div class="position-relative desParent overflow-hidden ">
+               <div>
+                <img src="img/destination-3.jpg" alt="destination 3" class="w-100">
+               </div>
+               <div class="text-white text-center border border-1 border-white bg-dark bg-opacity-50 position-absolute  desitCard ">
+                 <div>
+                  <h5>Austruilla</h5>
+                  <p class="h6">100 Cities</p>
+                 </div>
+               </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+          <div class="position-relative desParent overflow-hidden ">
+             <div>
+              <img src="img/destination-4.jpg" alt="destination 4" class="w-100">
+             </div>
+             <div class="text-white text-center border border-1 border-white bg-dark bg-opacity-50 position-absolute  desitCard ">
+              <div>
+                <h5>India</h5>
+              <p class="h6">100 Cities</p>
+              </div>
+             </div>
+          </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+        <div class="position-relative desParent overflow-hidden ">
+           <div>
+            <img src="img/destination-5.jpg" alt="destination 5" class="w-100">
+           </div>
+           <div class="text-white text-center border border-1 border-white bg-dark bg-opacity-50 position-absolute  desitCard ">
+              <div>
+                <h5>South Africa</h5>
+                <p class="h6">100 Cities</p>
+              </div>
+           </div>
+        </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="position-relative desParent overflow-hidden ">
+         <div>
+          <img src="img/destination-6.jpg" alt="destination 6" class="w-100">
+         </div>
+         <div class="text-white text-center border border-1 border-white bg-dark bg-opacity-50 position-absolute  desitCard ">
+           <div>
+            <h5>Indonesia</h5>
+          <p class="h6">100 Cities</p>
+           </div>
+         </div>
+      </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+     <footer class="bg-dark py-5 pb-0">
+        <div class="container-lg px-3 px-lg-0">
+            <div class="row g-5">
+              <div class="col-lg-3 col-md-6">
+                    <div class="px-2">
+                     <a class="h1 fw-bold text-decoration-none text-white" href="index.html">TRAVEL<span class="siteText">ER</span></a>
+                     <p class="siteGray my-4">Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero lorem dolor dolor</p>
+                    <h6 class="text-white mb-3">FOLLOW US</h6>
+                    <div class="d-flex align-items-center ">
+                      <i class="fa-brands fa-twitter p-2 siteText border borderSite social me-2 " aria-hidden="true"></i>
+                      <i class="fa-brands fa-facebook-f p-2 siteText border borderSite social me-2  " aria-hidden="true"></i>
+                      <i class="fa-brands fa-instagram p-2 siteText border borderSite social me-2 " aria-hidden="true"></i>
+                      <i class="fa-brands fa-linkedin-in p-2 siteText border borderSite social me-2 " aria-hidden="true"></i>
+                  </div>
+                   </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="px-2">
+                  <h4 class="text-white mb-4">OUR SERVICES</h4>
+                  <ul class="fa-ul p-1">
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>About</a></li>
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>Destination</a></li>
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>Services</a></li>
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>Packages</a></li>
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>Guides</a></li>
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>Testmonial</a></li>
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>Blog</a></li>
+                  </ul>
+
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="px-2">
+                  <h4 class="text-white mb-4">USEFULL LINKS</h4>
+                  <ul class="fa-ul p-1">
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>About</a></li>
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>Destination</a></li>
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>Services</a></li>
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>Packages</a></li>
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>Guides</a></li>
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>Testmonial</a></li>
+                    <li class="siteGray mb-1"><a href="#" class="text-decoration-none text-reset fw-semibold "><span class="fa-li"><i class="fa-solid fa-angle-right me-1 small"></i></span>Blog</a></li>
+                  </ul>
+
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div  class="px-2">
+                  <h4 class="text-white mb-4">CONTACT US</h4>
+                  <ul class="fa-ul p-1">
+                    <li class="siteGray mb-2"><span class="fa-li"><i class="fa-solid fa-location-dot small me-2 "></i></span>123 Street, New York, USA</li>
+                    <li class="siteGray mb-2"><span class="fa-li"><i class="fa-solid fa-phone me-2 small "></i></span>+012 345 67890</li>
+                    <li class="siteGray mb-2"><span class="fa-li"><i class="fa-solid fa-envelope me-2 small"></i></span>info@example.com</li>
+                  </ul>
+                  <h6 class="text-white mb-3">NEWSLETTER</h6>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Your Mail" aria-label="mail" aria-describedby="basic-addon2">
+                    <span class="input-group-text bg-site text-white" id="basic-addon2">Sign Up</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+         <div class="copy py-3 mt-2 ">
+          <div class="container">
+            <div class="d-flex justify-content-lg-between align-items-center flex-column flex-lg-row" >
+              <p class="siteGray">Copyright © <span class="siteText">Domain</span>. All Rights Reserved.</p>
+               <p class="siteGray">Designed by <span class="siteText">HTML Codex</span></p>
+            </div>
+           </div>
+         </div>
+    </footer>
+
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="owlcarousel/owl.carousel.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/script.js"></script>
+  </body>
+</html>
+
