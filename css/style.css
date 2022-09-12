@@ -252,12 +252,20 @@ transform: translateY(0);
   #About a:hover, #Services a:hover{
     text-decoration: underline !important;
   }
+
+  .contactWidth{
+    width:100%;
+  }
   
 @media screen and (min-width:768px){
     .Dates{
         transform: translateY(-50%);
     }
    
+    .contactWidth{
+        width:80%;
+      }
+      
   }
 @media screen and (min-width:992px){
     h1{
@@ -273,6 +281,9 @@ transform: translateY(0);
         margin-bottom:5rem;
         margin-left:-120px;
       }   
+      .contactWidth{
+        width:50%;
+      }
     
 }
 
