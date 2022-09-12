@@ -249,7 +249,7 @@ transform: translateY(0);
    height:60vh;
   }
 
-  #About a:hover{
+  #About a:hover, #Services a:hover{
     text-decoration: underline !important;
   }
   
