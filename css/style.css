@@ -181,6 +181,36 @@ h1{
 .teamParent:hover .teamIcon{
 transform: translateY(0);
 }
+
+.testCard{
+    margin-top:-1rem;
+}
+
+
+
+.owl-carousel .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .owl-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    background: #DDDDDD;
+    transition: .5s;
+  }
+  
+  .owl-carousel .owl-dot.active {
+    width: 40px;
+    background: var(--siteColor);
+  }
+  
+  .owl-carousel .owl-item.center .testInfo {
+    box-shadow: 0 0 30px #CCCCCC;
+  } 
 @media screen and (min-width:768px){
     .Dates{
         transform: translateY(-50%);
@@ -200,11 +230,7 @@ transform: translateY(0);
         margin-top:5rem;
         margin-bottom:5rem;
         margin-left:-120px;
-      }
-
-     
-    
-   
+      }   
     
 }
 
