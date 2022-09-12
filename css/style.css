@@ -240,6 +240,18 @@ transform: translateY(0);
    .copy{
     border-top:1px solid #383838;
    }
+
+  /* End of Home Page  */
+
+  #About{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url(../img/carousel-2.jpg);
+   background-size: cover;
+   height:60vh;
+  }
+
+  #About a:hover{
+    text-decoration: underline !important;
+  }
   
 @media screen and (min-width:768px){
     .Dates{
