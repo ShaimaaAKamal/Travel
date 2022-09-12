@@ -243,7 +243,7 @@ transform: translateY(0);
 
   /* End of Home Page  */
 
-  #About{
+  #About,#Services{
     background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url(../img/carousel-2.jpg);
    background-size: cover;
    height:60vh;
