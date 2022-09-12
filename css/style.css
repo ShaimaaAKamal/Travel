@@ -23,7 +23,6 @@ body{
 .bg-site{
     background-color: var(--siteColor);
 }
-
 .borderGray{
     border-color: var(--borderColor) !important;
 }
@@ -115,11 +114,19 @@ h1{
     background-color: var(--siteColor);
     color:#fff !important; 
   }
-
-  .services .serviceCard:hover{
+ .packParent{
+    transition: all 1s;
+ }
+  .services .serviceCard:hover,.packParent:hover{
     box-shadow:  0 .5rem 1rem 10px rgba(0,0,0,.15)  !important;
   }
 
+  .packageTitle{
+    border-bottom: 1px solid #DEE2E5;
+  }
+  .packageTitle a:hover{
+    color:var(--siteColor) !important;
+  }
 @media screen and (min-width:768px){
     .Dates{
         transform: translateY(-50%);
