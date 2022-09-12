@@ -5,6 +5,10 @@
     --borderColor:#636464
 }
 
+body{
+    background-color: #F3F3F3;
+}
+
 .siteText{
     color:var(--siteColor);
 }
@@ -22,6 +26,10 @@
 
 .borderGray{
     border-color: var(--borderColor) !important;
+}
+
+.borderSite{
+    border-color: var(--siteColor) !important;
 }
 
 .headerGray{
@@ -97,6 +105,19 @@ h1{
   }
   .desParent:hover .desitCard{
     outline: 90px solid #8dadc48e;
+  }
+
+  .serviceCard,.serviceCard i {
+     transition: all 1s;
+  }
+
+  .serviceCard:hover i{
+    background-color: var(--siteColor);
+    color:#fff !important; 
+  }
+
+  .services .serviceCard:hover{
+    box-shadow:  0 .5rem 1rem 10px rgba(0,0,0,.15)  !important;
   }
 
 @media screen and (min-width:768px){
