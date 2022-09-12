@@ -163,7 +163,7 @@ h1{
     transition:all .5s;
 }
 
-.teamIcon:hover{
+.teamIcon:hover,.social:hover{
     background-color: var(--siteColor);
     color:#fff !important;
     cursor: pointer;
@@ -233,6 +233,13 @@ transform: translateY(0);
     z-index: -1;
    }
 
+   footer li:hover a {
+    text-decoration: underline !important;
+   }
+   
+   .copy{
+    border-top:1px solid #383838;
+   }
   
 @media screen and (min-width:768px){
     .Dates{
